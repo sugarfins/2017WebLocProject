@@ -1,7 +1,6 @@
 ---
 layout: site
 title: About
-permalink: /about/
 ---
 
 Hello world! Foobar

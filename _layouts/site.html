@@ -2,17 +2,17 @@
 <html>
 
 <head>
-  <title>JET Programme USA</title>
+  <title></title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html" />
     <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
     <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
   <!-- modernizr enables HTML5 elements and feature detects -->
-    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-    <script type="text/javascript" src="js/languages.js" defer></script>
+    <script type="text/javascript" src="/js/modernizr-1.5.min.js"></script>
+    <script type="text/javascript" src="/js/languages.js" defer></script>
     </head>
 
 <body>
@@ -28,11 +28,11 @@
 	  <nav>
 	    <div id="menubar">
           <ul id="nav">
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About the JET Programme</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li {% if page.url == "/" %}class="current"{% endif %}><a href="/">{{ site.data.lang[page.lang].home }}</a></li>
+            <li {% if page.url == "/about.html" %}class="current"{% endif %}><a href="/about.html">{{ site.data.lang[page.lang].about }}</a></li>
+            <li {% if page.url == "/testimonials.html" %}class="current"{% endif %}><a href="testimonials.html">{{ site.data.lang[page.lang].testimonials }}</a></li>
+            <li {% if page.url == "/faq.html" %}class="current"{% endif %}><a href="faq.html">{{ site.data.lang[page.lang].faq }}</a></li>
+            <li {% if page.url == "/contact.html" %}class="current"{% endif %}><a href="contact.html">{{ site.data.lang[page.lang].contact }}</a></li>
 
           </ul>
         </div><!--close menubar-->
@@ -42,8 +42,8 @@
     <div id="slideshow_container">
 	  <div class="slideshow">
 	    <ul class="slideshow">
-         <li class="show"><img width="940" height="250" src="images/home_1.jpg" alt="Children in Gosen" /></li>
-          <li><img width="940" height="250" src="images/home_2.jpg" alt="A Day in the Life of an ALT" /></li>
+         <li class="show"><img width="940" height="250" src="/images/home_1.jpg" alt="Children in Gosen" /></li>
+          <li><img width="940" height="250" src="/images/home_2.jpg" alt="A Day in the Life of an ALT" /></li>
         </ul>
 	  </div><!--close slideshow-->
 	</div><!--close slideshow_container-->
@@ -53,11 +53,17 @@
 	  <div class="sidebar_container">
 		<div class="sidebar">
              <div class="sidebar_item">
-                 <span id="languageMenu"></span>
+                 <span id="languageMenu">
+                   <select id="langmenu">
+                     <option value="">Language:</option>
+                     <option value="{{ page.ref }}">English</option>
+                     <option value="/jp/{{ page.ref }}">日本語</option>
+                   </select>
+                 </span>
             </div>
           <div class="sidebar_item">
             <h2>About JET</h2>
-            <p>Since the JET Program was founded in 1987, we have sent more than 61,000 global participants (including nearly 32,000 Americans) to work in schools, boards of education, and government offices throughout Japan.</p>
+            <p>{{ site.data.lang[page.lang].aboutsummary }}</p>
           </div><!--close sidebar_item-->
         </div><!--close sidebar-->
 		<div class="sidebar">

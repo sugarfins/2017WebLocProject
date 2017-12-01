@@ -3,6 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: site
+lang: en
+ref: index.html
 ---
 
 # About JET
@@ -15,4 +17,11 @@ ALTs teach work alongside their Japanese counterparts to teach English to childr
 
 <div class="button_small">
   <a href="#">Read more</a>
+
+  **Coordinator for International Relation(CIR)**
+
+  CIRs have a high degree of Japanese language proficiency and work in government positions as interpreters.
+
+  <div class="button_small">
+    <a href="#">Read more</a>
 </div><!--close button_small-->
