@@ -4,4 +4,4 @@ lang: jp
 ref: index.html
 ---
 
-JAPANESE CONTENT LOL
+JAPANESE CONTENT LOL test test test
