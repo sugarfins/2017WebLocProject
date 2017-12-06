@@ -1,6 +1,7 @@
 ---
 layout: site
 title: About
+lang: en
 ---
 
 Hello world! Foobar
