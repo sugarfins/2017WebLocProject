@@ -21,6 +21,7 @@ We’re standing by to help your product take off.
 <span>Email</span>
 
 <input class="contact" type="text" name="your_email" value="" />
+
 <span>Your Message</span>
 
 <textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea>

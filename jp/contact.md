@@ -23,10 +23,10 @@ AeroTECは、小規模な改造、間違いなく新しい航空機など、設�
 
 <span>メッセージ</span>
 
-<textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea></p>
+<textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea>
 
 この簡単な数学の質問に対する回答を入力してください（スパムを防ぐために)
 
 <span>質問: 9 + 3 = ?</span><input type="text" name="user_answer" class="contact" /><input type="hidden" name="answer" value="4d76fe9775" />
 
-<input class="submit" type="submit" name="contact_submitted" value="Send" /><!--close form_settings-->
+<input class="submit" type="submit" name="contact_submitted" value="送る" /><!--close form_settings-->
