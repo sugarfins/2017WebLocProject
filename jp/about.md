@@ -1,7 +1,7 @@
 ---
 layout: site
 lang: jp
-ref: index.html
+ref: about.html
 ---
 
 ## JETプログラムについて

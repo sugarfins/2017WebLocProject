@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title></title>
+  <title>Fall 2017 Website Localization Project</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html" />
@@ -18,13 +18,12 @@
 <body>
   <div id="main">
 
-    <header>
+  <header>
 	  <div id="strapline">
 	    <div id="welcome_slogan">
 	      <h3>JET Programme - The Experience of a Lifetime</h3>
-
 	    </div><!--close welcome_slogan-->
-      </div><!--close strapline-->
+    </div><!--close strapline-->
 	  <nav>
 	    <div id="menubar">
           <ul id="nav">
@@ -33,14 +32,14 @@
             <li {% if page.url == "testimonials.html" %}class="current"{% endif %}><a href="testimonials.html">{{ site.data.lang[page.lang].testimonials }}</a></li>
             <li {% if page.url == "faq.html" %}class="current"{% endif %}><a href="faq.html">{{ site.data.lang[page.lang].faq }}</a></li>
             <li {% if page.url == "contact.html" %}class="current"{% endif %}><a href="contact.html">{{ site.data.lang[page.lang].contact }}</a></li>
-            <li><a href="/2017WebLocProject/{{ page.ref }}">English</a></li>
-            <li><a href="/2017WebLocProject/jp/{{ page.ref }}">日本語</a></li>
           </ul>
-        </div><!--close menubar-->
-      </nav>
-    </header>
+            <a href="/2017WebLocProject/{{ page.ref }}">English</a>
+            <a href="/2017WebLocProject/jp/{{ page.ref }}">日本語</a>
+      </div><!--close menubar-->
+    </nav>
+  </header>
 
-    <div id="slideshow_container">
+  <div id="slideshow_container">
 	  <div class="slideshow">
 	    <ul class="slideshow">
          <li class="show"><img width="940" height="250" src="/2017WebLocProject/images/home_1.jpg" alt="Children in Gosen" /></li>
@@ -49,61 +48,43 @@
 	  </div><!--close slideshow-->
 	</div><!--close slideshow_container-->
 
-	<div id="site_content">
-
-	  <div class="sidebar_container">
-		<div class="sidebar">
-             <div class="sidebar_item">
-                 <span id="languageMenu">
-                   <select id="langmenu">
-                     <option value="">Language:</option>
-                     <option value="/2017WebLocProject/{{ page.ref }}">English</option>
-                     <option value="/2017WebLocProject/jp/{{ page.ref }}">日本語</option>
-                   </select>
-                 </span>
-            </div>
-          <div class="sidebar_item">
-            <h2>About JET</h2>
-            <p>{{ site.data.lang[page.lang].aboutsummary }}</p>
-          </div><!--close sidebar_item-->
-        </div><!--close sidebar-->
-		<div class="sidebar">
-          <div class="sidebar_item">
-            <h2>Latest Update</h2>
-            <h3>September 2017</h3>
-            <p>The application for the 2018 JET Program is now open!</p>
-		  </div><!--close sidebar_item-->
-        </div><!--close sidebar-->
-		<div class="sidebar">
-          <div class="sidebar_item">
-            <h3>August 2017</h3>
-            <p>Welcome back all returning JET Programme participants!</p>
-		  </div><!--close sidebar_item-->
-        </div><!--close sidebar-->
-        <div class="sidebar">
-          <div class="sidebar_item">
-            <h2>Contact</h2>
-            <p>(202)238-6772/6773</p>
-            <p>Email: <a href="mailto:jetprogram@ws.mofa.go.jp">jetprogram@ws.mofa.go.jp</a></p>
-          </div><!--close sidebar_item-->
-        </div><!--close sidebar-->
-       </div><!--close sidebar_container-->
+  <div id="site_content">
+    <div class="sidebar_container">
+      <div class="sidebar_item">
+        <h2>About JET</h2>
+        <p>{{ site.data.lang[page.lang].aboutsummary }}</p>
+      </div><!--close sidebar_item-->
+      <div class="sidebar_item">
+        <h2>Latest Update</h2>
+        <h3>September 2017</h3>
+        <p>The application for the 2018 JET Program is now open!</p>
+  		</div><!--close sidebar_item-->
+      <div class="sidebar_item">
+        <h3>August 2017</h3>
+        <p>Welcome back all returning JET Programme participants!</p>
+      </div><!--close sidebar_item-->
+      <div class="sidebar_item">
+        <h2>Contact</h2>
+        <p>(202)238-6772/6773</p>
+        <p>Email: <a href="mailto:jetprogram@ws.mofa.go.jp">jetprogram@ws.mofa.go.jp</a></p>
+      </div><!--close sidebar_item-->
+    </div><!--close sidebar_container-->
 
     <div id="content">
-      {{ content }}
+        {{ content }}
     </div><!--close content-->
-	</div><!--close site_content-->
+  </div><!--close site_content-->
 
-    <footer>
-	  <a href="index.html">Home</a> | <a href="about.html">About the JET Programme</a> | <a href="testimonials.html">Testimonials</a> | <a href="faq.html">FAQ</a> | <a href="contact.html">Contact</a><br/><br/>
-	  <a href="http://fotogrph.com">Images</a> |  <a href="http://www.heartinternet.co.uk/vps/">Virtual Server</a>  | website template by <a href="http://www.freehtml5templates.co.uk">Free HTML5 Templates</a>
-    </footer>
+<footer>
+  <a href="index.html">Home</a> | <a href="about.html">About the JET Programme</a> | <a href="testimonials.html">Testimonials</a> | <a href="faq.html">FAQ</a> | <a href="contact.html">Contact</a><br/><br/>
+  <a href="http://fotogrph.com">Images</a> |  <a href="http://www.heartinternet.co.uk/vps/">Virtual Server</a>  | website template by <a href="http://www.freehtml5templates.co.uk">Free HTML5 Templates</a>
+</footer>
 
   </div><!--close main-->
 
   <!-- javascript at the bottom for fast page loading -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/image_slide.js"></script>
+  <script type="text/javascript" src="/2017WebLocProject/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/2017WebLocProject/js/image_slide.js"></script>
 
 
 </body>

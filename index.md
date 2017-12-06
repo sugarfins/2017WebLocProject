@@ -1,7 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: site
 lang: en
 ref: index.html
@@ -16,7 +13,7 @@ Welcome to the Japan Exchange and Teaching (JET) Program. Founded in 1987, JET h
 ALTs teach work alongside their Japanese counterparts to teach English to children of all ages in schools.
 
 <div class="button_small">
-  <a href="#">Read more</a>
+  <a href="#">Read more</a></div>
 
   **Coordinator for International Relation(CIR)**
 
