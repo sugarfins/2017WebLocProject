@@ -1,25 +1,27 @@
 ---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: site
 lang: en
 ref: index.html
 ---
 
-# About JET
+# About AeroTEC
 
-Welcome to the Japan Exchange and Teaching (JET) Program. Founded in 1987, JET has sent more than 60,000 global participants (including nearly 32,000 Americans) to work in schools, boards of education, and government offices throughout Japan. What makes JET unique is that it is the only teaching exchange program managed by the government of Japan. With more than 40 countries around the world participating in JET, this program offers a unique cultural exchange opportunity to meet people from all around the world, living and working in Japan. Before departing for Japan and upon return, there are a number of JET alumni organizations that host social, volunteer and professional development activities to help individuals through the transition process. Becoming a JET puts you in an elite network of incredible individuals. Join us for the adventure of a lifetime!
+At AeroTEC, testing, engineering, and certification are quite literally in our name. We don’t take that lightly. From our humble beginnings in 2003, we’ve aimed to design a one-stop turnkey flight testing, engineering, data analysis, and certification business designed to bring your product to market quickly, efficiently, and on budget.
 
-**Assistant Language Teacher (ALT)**
+ <div class="content_image">
+    <img width="150" height="150"src="images/plane.jpg" alt="image1"/>
+ </div>
 
-ALTs teach work alongside their Japanese counterparts to teach English to children of all ages in schools.
+Today our expanded offerings include the full spectrum of test planning, ground and flight testing, data reduction and analysis, engineering design, light manufacturing for aerospace production and prototyping, performance analysis, CFD analysis, wind tunnel and icing testing, test equipment development, qualification and certification services, and much more. We usher your aerospace project from engineering and design to prototype manufacturing, testing, and certification with multiple international aviation agencies. 
+
+**Locations**
+
+We’ve since grown and expanded into offices just north of Boeing Field (KBFI) in Seattle and added a state-of-the-art flight test center with our own 65,000-square-foot and 32,000-square-foot hangars in Moses Lake, Washington.
+We indeed are your one-stop shop for turnkey aerospace solutions.
 
 <div class="button_small">
   <a href="#">Read more</a>
-</div>
-
-**Coordinator for International Relation(CIR)**
-
-CIRs have a high degree of Japanese language proficiency and work in government positions as interpreters.
-
-<div class="button_small">
-    <a href="#">Read more</a>
-</div>
+</div><!--close button_small-->
