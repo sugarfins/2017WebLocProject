@@ -13,12 +13,13 @@ Welcome to the Japan Exchange and Teaching (JET) Program. Founded in 1987, JET h
 ALTs teach work alongside their Japanese counterparts to teach English to children of all ages in schools.
 
 <div class="button_small">
-  <a href="#">Read more</a></div>
+  <a href="#">Read more</a>
+</div>
 
-  **Coordinator for International Relation(CIR)**
+**Coordinator for International Relation(CIR)**
 
-  CIRs have a high degree of Japanese language proficiency and work in government positions as interpreters.
+CIRs have a high degree of Japanese language proficiency and work in government positions as interpreters.
 
-  <div class="button_small">
+<div class="button_small">
     <a href="#">Read more</a>
-</div><!--close button_small-->
+</div>
