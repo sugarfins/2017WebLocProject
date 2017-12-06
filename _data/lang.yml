@@ -1,14 +1,16 @@
 en:
-  home:  "Home"
-  about: "About the JET Programme"
-  testimonials: "Testimonials"
-  faq: "FAQ"
+  slogan: AEROSPACE TESTING, ENGINEERING, AND CERTIFICATION
+  home: "Home"
+  testing: "Testing"
+  engineering: "Engineering"
+  products: "Products"
   contact: "Contact Us"
-  aboutsummary: "Since the JET Program was founded in 1987, we have sent more than 61,000 global participants (including nearly 32,000 Americans) to work in schools, boards of education, and government offices throughout Japan."
+  about: "Since the JET Program was founded in 1987, we have sent more than 61,000 global participants (including nearly 32,000 Americans) to work in schools, boards of education, and government offices throughout Japan."
 jp:
-  home:  "ホーム"
-  about: "JETプログラムについて"
-  testimonials: "参加者の声"
-  faq: "よくある質問"
-  contact: "お問い合わせ"
-  aboutsummary: "lalalalthisisjapanesetext"
+  slogan: 航空宇宙テスティング、エンジニアリング、および認証
+  home: "ホーム"
+  testing: "テスト"
+  engineering: "エンジニアリング"
+  products: "製品"
+  contact: "連絡"
+  about: "飛行機や改造を証明する良い方法がなければならないと思ったことがあれば、そうです。製品開発は遅くても苦痛である必要はありません。そしてAeroTECではそうではありません。"

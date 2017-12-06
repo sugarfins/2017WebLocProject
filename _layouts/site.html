@@ -20,17 +20,18 @@
 
   <header>
 	  <div id="strapline">
+      <h3>AeroTec</h3>
 	    <div id="welcome_slogan">
-	      <h3>JET Programme - The Experience of a Lifetime</h3>
+        <h3>{{ site.data.lang[page.lang].slogan }}</h3>
 	    </div><!--close welcome_slogan-->
     </div><!--close strapline-->
 	  <nav>
 	    <div id="menubar">
           <ul id="nav">
             <li {% if page.url == "index.html" %}class="current"{% endif %}><a href="index.html">{{ site.data.lang[page.lang].home }}</a></li>
-            <li {% if page.url == "about.html" %}class="current"{% endif %}><a href="about.html">{{ site.data.lang[page.lang].about }}</a></li>
-            <li {% if page.url == "testimonials.html" %}class="current"{% endif %}><a href="testimonials.html">{{ site.data.lang[page.lang].testimonials }}</a></li>
-            <li {% if page.url == "faq.html" %}class="current"{% endif %}><a href="faq.html">{{ site.data.lang[page.lang].faq }}</a></li>
+            <li {% if page.url == "about.html" %}class="current"{% endif %}><a href="testing.html">{{ site.data.lang[page.lang].testing }}</a></li>
+            <li {% if page.url == "testimonials.html" %}class="current"{% endif %}><a href="engineering.html">{{ site.data.lang[page.lang].engineering }}</a></li>
+            <li {% if page.url == "faq.html" %}class="current"{% endif %}><a href="products.html">{{ site.data.lang[page.lang].products }}</a></li>
             <li {% if page.url == "contact.html" %}class="current"{% endif %}><a href="contact.html">{{ site.data.lang[page.lang].contact }}</a></li>
           </ul>
             <a href="/2017WebLocProject/{{ page.ref }}">English</a>
@@ -52,7 +53,7 @@
     <div class="sidebar_container">
       <div class="sidebar_item">
         <h2>About JET</h2>
-        <p>{{ site.data.lang[page.lang].aboutsummary }}</p>
+        <p>{{ site.data.lang[page.lang].about }}</p>
       </div><!--close sidebar_item-->
       <div class="sidebar_item">
         <h2>Latest Update</h2>
