@@ -2,6 +2,7 @@
 layout: site
 title: About
 lang: en
+ref: about.html
 ---
 
 Hello world! Foobar
