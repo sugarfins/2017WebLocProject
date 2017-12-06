@@ -11,11 +11,9 @@ ref: index.html
 
 At AeroTEC, testing, engineering, and certification are quite literally in our name. We don’t take that lightly. From our humble beginnings in 2003, we’ve aimed to design a one-stop turnkey flight testing, engineering, data analysis, and certification business designed to bring your product to market quickly, efficiently, and on budget.
 
- <div class="content_image">
-    <img width="150" height="150"src="images/plane.jpg" alt="image1"/>
- </div>
+![alt text](/2017WebLocProject/images/plane.jpg "Aerotec"=150x150)
 
-Today our expanded offerings include the full spectrum of test planning, ground and flight testing, data reduction and analysis, engineering design, light manufacturing for aerospace production and prototyping, performance analysis, CFD analysis, wind tunnel and icing testing, test equipment development, qualification and certification services, and much more. We usher your aerospace project from engineering and design to prototype manufacturing, testing, and certification with multiple international aviation agencies. 
+Today our expanded offerings include the full spectrum of test planning, ground and flight testing, data reduction and analysis, engineering design, light manufacturing for aerospace production and prototyping, performance analysis, CFD analysis, wind tunnel and icing testing, test equipment development, qualification and certification services, and much more. We usher your aerospace project from engineering and design to prototype manufacturing, testing, and certification with multiple international aviation agencies.
 
 **Locations**
 

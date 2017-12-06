@@ -13,14 +13,20 @@ AeroTECは、小規模な改造、間違いなく新しい航空機など、設�
 
 私たちの専門家に相談するには、下記のフォームにご記入の上、お電話またはEメールでご連絡ください。私たちはあなたの製品が離れるのを助けるために立っています。
 
-<span>名前</span><input class="contact" type="text" name="your_name" value="" />
+<span>名前</span>
 
-<span>メール</span><input class="contact" type="text" name="your_email" value="" />
+<input class="contact" type="text" name="your_name" value="" />
 
-<span>メッセージ</span><textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea></p>
+<span>メール</span>
 
-この簡単な数学の質問に対する回答を入力してください（スパムを防ぐために
+<input class="contact" type="text" name="your_email" value="" />
+
+<span>メッセージ</span>
+
+<textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea></p>
+
+この簡単な数学の質問に対する回答を入力してください（スパムを防ぐために)
 
 <span>質問: 9 + 3 = ?</span><input type="text" name="user_answer" class="contact" /><input type="hidden" name="answer" value="4d76fe9775" />
 
-<span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="Send" /><!--close form_settings-->
+<input class="submit" type="submit" name="contact_submitted" value="Send" /><!--close form_settings-->
